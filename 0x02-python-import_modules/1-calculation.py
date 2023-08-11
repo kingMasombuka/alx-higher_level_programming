@@ -11,7 +11,7 @@ def execute_code():
     print("{} - {} = {}".format(a, b, cal.sub(a, b)))
     print("{} * {} = {}".format(a, b, cal.mul(a, b)))
     print("{} / {} = {}".format(a, b, cal.div(a, b)))
-    
-    
+
+
 if __name__ == "__main__":
     execute_code()
