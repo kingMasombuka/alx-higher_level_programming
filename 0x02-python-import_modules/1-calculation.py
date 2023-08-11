@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-if __name__ == "__main__":
+
+
+def execute_code():
+
     import calculator_1 as cal
 
     a = 10
@@ -8,3 +11,7 @@ if __name__ == "__main__":
     print("{} - {} = {}".format(a, b, cal.sub(a, b)))
     print("{} * {} = {}".format(a, b, cal.mul(a, b)))
     print("{} / {} = {}".format(a, b, cal.div(a, b)))
+    
+    
+if __name__ == "__main__":
+    execute_code()
