@@ -1,6 +1,12 @@
-#!/usr/bin/python3
+##!/usr/bin/python3
 
 if __name__ == "__main__":
-    from variable_load_5 import a
+    import sys
+    import calculator_1 as cal
 
-    print(a)
+    argv = sys.argv
+    argcount = len(argv) - 1
+    if argcount != 3:
+        print("Usage: ./100-my_calculator.py <a> <operator> <b>")
+    print(argv)
+    print(argcount)
