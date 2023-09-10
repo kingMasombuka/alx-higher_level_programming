@@ -17,7 +17,8 @@ class Rectangle:
         self.height = height
 
     def __str__(self):
-        """Returns string representation of a Rectangle instance, filled with the '#' character."""
+        """Returns string representation of a Rectangle instance,
+        filled with the '#' character."""
         if self.__height == 0 or self.__width == 0:
             return ''
         recstring = ''
@@ -51,7 +52,7 @@ class Rectangle:
 
     @height.setter
     def height(self, value):
-        """Sets the height of a Rectangle 
+        """Sets the height of a Rectangle
         Args:
             value: value of the height, must be a positive integer
         """
@@ -62,14 +63,14 @@ class Rectangle:
         self.__height = value
 
     def perimeter(self):
-        """Calculates perimeter of a Rectangle 
+        """Calculates perimeter of a Rectangle
         Returns:
             Perimeter of rectangle, given by 2 * (height + width)
         """
         if self.__height == 0 or self.__width == 0:
             return 0
         return 2 * (self.__width + self.__height)
-    
+
     def area(self):
         """Calculates the area of a Rectangle instance
         Returns:
