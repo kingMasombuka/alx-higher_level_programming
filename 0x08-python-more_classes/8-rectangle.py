@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Author: Martins Akhivbareme
+
 """Defines a Rectangle class."""
 
 
