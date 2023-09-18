@@ -10,7 +10,7 @@ def add_attribute(obj, att, value):
         obj (any): The object to add an attribute to.
         value (any): The value of att.
     Raises:
-        TypeError: If the attribute cannot be added.
+        TypeError: If the attribute cannot beu added.
     """
     if not hasattr(obj, "__dict__"):
         raise TypeError("can't add new attribute")
